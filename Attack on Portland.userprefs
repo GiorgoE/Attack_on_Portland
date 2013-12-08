@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AI_GroundUnit.js">
+    <Files>
+      <File FileName="Assets\Scripts\Projectile_Canon2.js" Line="7" Column="26" />
+      <File FileName="Assets\Scripts\lookAt.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Projectile_AA2.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelMaster.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AttackJet.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InGameGUI.js" Line="1" Column="1" />
+      <File FileName="Assets\AI_GroundUnit.js" Line="34" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
