@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 //globals
 static var playerDamage = 0;
 
@@ -17,6 +17,8 @@ var healthCount : int = 10;
 
 var buttonTex : Texture2D;
 var buttonTex1 : Texture2D;
+var buttonTex2 : Texture2D;
+var buttonTex3 : Texture2D;
 
 var goldCount : int = 200; 
 var scoreCount : int = 0; 
@@ -167,6 +169,16 @@ function OnGUI () {
 	//gold
 	GUI.Box (Rect (75,10,50,50), buttonTex1);
 	GUI.Label (Rect (83,60,45,20), " " + goldCount.ToString());
+
+	// Make the third button.
+	//gold
+	GUI.Box (Rect (10,420,50,50), buttonTex2);
+	GUI.Label (Rect (10,400,55,20), "Lives:" + healthCount.ToString());
+
+	// Make the third button.
+	//gold
+	GUI.Box (Rect (75,420,50,50), buttonTex3);
+	GUI.Label (Rect (75,400,55,20), "Wave:" + waveLevel.ToString());
 }
 
 function FinishWave()
